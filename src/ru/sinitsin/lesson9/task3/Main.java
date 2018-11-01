@@ -5,11 +5,13 @@ public class Main {
         Person person = new SportPerson();
         Person child = new Children();
 
+
         person.run();
         person.swim();
 
         child.swim();
         child.run();
+
 
 
     }

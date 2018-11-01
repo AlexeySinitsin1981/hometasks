@@ -6,7 +6,7 @@ public class Main {
         String [] drinks = new String[]{"Кока-Кола", "Спрайт", "Фанта"};
 
         VendingMashine vm = new VendingMashine();
-        vm.addMoney(100);
+        vm.addMoney(1000);
         vm.giveMeADrink(HotDrink.CACAO);
 
        // vm.setDrinks(new String [] {"Чай", "Кофе", "Какао"});
